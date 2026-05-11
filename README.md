@@ -59,21 +59,27 @@ examples/
 
 完整安装说明见 [INSTALL.md](INSTALL.md)。
 
-常用入口：
+GPT：
 
-- GPT：打开 https://chatgpt.com/gpts/editor ，复制 `adapters/gpt/instructions.md`。
-- Claude Skill：下载 `packages/lingshu-control-plane-skill.zip` 并在 Claude Skills 页面上传。
-- Cursor：
+打开 https://chatgpt.com/gpts/editor ，复制 `adapters/gpt/instructions.md`。
 
-  ```powershell
-  powershell -ExecutionPolicy Bypass -Command "irm https://raw.githubusercontent.com/Hundaozi/lingshu-agent-control-plane/main/scripts/install-cursor-project.ps1 | iex"
-  ```
+Claude Skill：
 
-- VSCode / Copilot：
+下载 `packages/lingshu-control-plane-skill.zip` 并在 Claude Skills 页面上传。
 
-  ```powershell
-  powershell -ExecutionPolicy Bypass -Command "irm https://raw.githubusercontent.com/Hundaozi/lingshu-agent-control-plane/main/scripts/install-vscode-copilot.ps1 | iex"
-  ```
+Windows PowerShell：
+
+```powershell
+powershell -ExecutionPolicy Bypass -Command "irm https://raw.githubusercontent.com/Hundaozi/lingshu-agent-control-plane/main/scripts/install-cursor-project.ps1 | iex"
+```
+
+macOS / Linux：
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/Hundaozi/lingshu-agent-control-plane/main/scripts/install-cursor-project.sh | sh
+```
+
+VSCode / Copilot 的 Windows、macOS、Linux 命令见 [INSTALL.md](INSTALL.md)。
 
 ## 如何使用
 

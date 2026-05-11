@@ -9,6 +9,82 @@
 - Claude：下载 Skill ZIP，在 Claude 的 Skills 页面上传。
 - Cursor / VSCode：在项目根目录执行一行脚本安装规则文件。
 
+## 0. 按系统快速安装
+
+### Windows PowerShell
+
+Cursor 项目规则：
+
+```powershell
+powershell -ExecutionPolicy Bypass -Command "irm https://raw.githubusercontent.com/Hundaozi/lingshu-agent-control-plane/main/scripts/install-cursor-project.ps1 | iex"
+```
+
+VSCode / Copilot Instructions：
+
+```powershell
+powershell -ExecutionPolicy Bypass -Command "irm https://raw.githubusercontent.com/Hundaozi/lingshu-agent-control-plane/main/scripts/install-vscode-copilot.ps1 | iex"
+```
+
+下载 Claude Skill ZIP：
+
+```powershell
+powershell -ExecutionPolicy Bypass -Command "irm https://raw.githubusercontent.com/Hundaozi/lingshu-agent-control-plane/main/scripts/download-claude-skill.ps1 | iex"
+```
+
+### macOS
+
+Cursor 项目规则：
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/Hundaozi/lingshu-agent-control-plane/main/scripts/install-cursor-project.sh | sh
+```
+
+VSCode / Copilot Instructions：
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/Hundaozi/lingshu-agent-control-plane/main/scripts/install-vscode-copilot.sh | sh
+```
+
+下载 Claude Skill ZIP：
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/Hundaozi/lingshu-agent-control-plane/main/scripts/download-claude-skill.sh | sh
+```
+
+打开 GPT Builder：
+
+```bash
+open https://chatgpt.com/gpts/editor
+```
+
+### Linux
+
+Cursor 项目规则：
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/Hundaozi/lingshu-agent-control-plane/main/scripts/install-cursor-project.sh | sh
+```
+
+VSCode / Copilot Instructions：
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/Hundaozi/lingshu-agent-control-plane/main/scripts/install-vscode-copilot.sh | sh
+```
+
+下载 Claude Skill ZIP：
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/Hundaozi/lingshu-agent-control-plane/main/scripts/download-claude-skill.sh | sh
+```
+
+打开 GPT Builder：
+
+```bash
+xdg-open https://chatgpt.com/gpts/editor
+```
+
+---
+
 ## GPT
 
 1. 打开 GPT Builder：
@@ -36,6 +112,20 @@
 下载 Skill ZIP：
 
 https://github.com/Hundaozi/lingshu-agent-control-plane/raw/main/packages/lingshu-control-plane-skill.zip
+
+也可以命令行下载：
+
+Windows：
+
+```powershell
+powershell -ExecutionPolicy Bypass -Command "irm https://raw.githubusercontent.com/Hundaozi/lingshu-agent-control-plane/main/scripts/download-claude-skill.ps1 | iex"
+```
+
+macOS / Linux：
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/Hundaozi/lingshu-agent-control-plane/main/scripts/download-claude-skill.sh | sh
+```
 
 导入方式：
 
@@ -103,4 +193,3 @@ https://raw.githubusercontent.com/Hundaozi/lingshu-agent-control-plane/main/adap
 Cursor / VSCode 版：
 
 https://raw.githubusercontent.com/Hundaozi/lingshu-agent-control-plane/main/adapters/cursor-vscode/lingshu.cursor-rules.md
-
