@@ -1,7 +1,6 @@
 # 灵枢：Agent 控制平面提示词 Pro
 
-作者：hundaozi / 魂道子  
-授权：CC BY 4.0，免费使用、修改和分享，但必须保留署名。
+License: MIT
 
 「灵枢」是一套通用 Agent 控制平面提示词。
 

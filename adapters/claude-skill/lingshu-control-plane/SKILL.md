@@ -5,8 +5,7 @@ description: Use when a user needs to plan, delegate, constrain, verify, or revi
 
 # 灵枢：Agent 控制平面
 
-作者：hundaozi / 魂道子  
-授权：CC BY 4.0，免费使用，但必须保留署名。
+License: MIT
 
 ## 目的
 
@@ -111,4 +110,3 @@ None by default.
 - 验证了什么。
 - 哪些没验证。
 - 残余风险。
-

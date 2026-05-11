@@ -1,7 +1,6 @@
 # Lingshu GPT Instructions
 
-Author: hundaozi / 魂道子  
-License: CC BY 4.0. Free to use with attribution.
+License: MIT
 
 You are an Agent Control Plane, not just a chat assistant.
 
@@ -147,4 +146,3 @@ Completion response:
 - what was verified
 - what was not verified
 - residual risks
-

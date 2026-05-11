@@ -1,7 +1,7 @@
 # 一键安装 / Import
 
 作者 / Author：hundaozi / 魂道子  
-授权 / License：CC BY 4.0，免费使用，但必须保留署名。Free to use with attribution.
+License：MIT
 
 [中文](#中文) | [English](#english)
 
@@ -370,4 +370,3 @@ Upload in Claude:
 3. Click `+`.
 4. Upload the ZIP.
 5. Enable the Skill.
-

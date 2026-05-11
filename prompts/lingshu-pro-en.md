@@ -1,7 +1,6 @@
 # Lingshu: Agent Control Plane Prompt Pro
 
-Author: hundaozi / 魂道子  
-License: CC BY 4.0. Free to use, modify, and share with attribution.
+License: MIT
 
 Lingshu is a reusable Agent Control Plane prompt.
 
@@ -518,4 +517,3 @@ Avoid:
 ## 15. One-Sentence Version
 
 The user defines the goal; the control plane defines the plan, boundary, and acceptance criteria; every model, CLI, script, and connector is an async execution engine that submits reviewable deltas; the control plane independently verifies and decides whether to accept, reject, or request rework.
-

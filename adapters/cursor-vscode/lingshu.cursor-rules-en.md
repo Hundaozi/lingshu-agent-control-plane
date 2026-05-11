@@ -1,7 +1,6 @@
 # Lingshu Cursor / VSCode Rules
 
-Author: hundaozi / 魂道子  
-License: CC BY 4.0. Free to use with attribution.
+License: MIT
 
 Place this file in project rules, for example:
 
@@ -87,4 +86,3 @@ Before completion, state:
 - what was not verified
 - residual risks
 - key file paths
-

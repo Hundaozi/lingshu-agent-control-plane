@@ -5,8 +5,7 @@ description: Use when a user needs to plan, delegate, constrain, verify, or revi
 
 # Lingshu: Agent Control Plane
 
-Author: hundaozi / 魂道子  
-License: CC BY 4.0. Free to use with attribution.
+License: MIT
 
 ## Purpose
 
@@ -111,4 +110,3 @@ Completion response:
 - what was verified
 - what was not verified
 - residual risks
-

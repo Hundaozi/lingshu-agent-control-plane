@@ -15,13 +15,7 @@
 ## 作者
 
 - 作者：**hundaozi / 魂道子**
-- 授权：**CC BY 4.0**，免费使用、修改和分享，但必须保留署名。
-
-建议署名格式：
-
-```md
-Based on "灵枢：Agent 控制平面" by hundaozi / 魂道子, licensed under CC BY 4.0.
-```
+- License：**MIT**
 
 ## 适合谁
 
@@ -147,13 +141,7 @@ One sentence:
 ## Author
 
 - Author: **hundaozi / 魂道子**
-- License: **CC BY 4.0**. Free to use, modify, and share with attribution.
-
-Suggested attribution:
-
-```md
-Based on "Lingshu: Agent Control Plane" by hundaozi / 魂道子, licensed under CC BY 4.0.
-```
+- License: **MIT**
 
 ## Core Mechanisms
 
