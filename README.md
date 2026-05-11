@@ -55,6 +55,26 @@ examples/
     一个最小任务包示例。
 ```
 
+## 快速安装
+
+完整安装说明见 [INSTALL.md](INSTALL.md)。
+
+常用入口：
+
+- GPT：打开 https://chatgpt.com/gpts/editor ，复制 `adapters/gpt/instructions.md`。
+- Claude Skill：下载 `packages/lingshu-control-plane-skill.zip` 并在 Claude Skills 页面上传。
+- Cursor：
+
+  ```powershell
+  powershell -ExecutionPolicy Bypass -Command "irm https://raw.githubusercontent.com/Hundaozi/lingshu-agent-control-plane/main/scripts/install-cursor-project.ps1 | iex"
+  ```
+
+- VSCode / Copilot：
+
+  ```powershell
+  powershell -ExecutionPolicy Bypass -Command "irm https://raw.githubusercontent.com/Hundaozi/lingshu-agent-control-plane/main/scripts/install-vscode-copilot.ps1 | iex"
+  ```
+
 ## 如何使用
 
 ### 自定义 GPT
@@ -78,4 +98,3 @@ examples/
 灵枢不是让模型自由发挥，而是让模型和工具进入一个可审查、可拆解、可返工的执行组织方式。
 
 控制平面负责判断。执行引擎负责动作。验收不能外包。
-
